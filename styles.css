@@ -1,0 +1,133 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f8f9fa;
+margin: 0;
+padding: 20px;
+}
+
+.canna-builder {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.traits-section {
+    flex: 1;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.traits-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#canna-preview {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #ccc;
+}
+
+#canna-preview img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+button {
+    padding: 8px 20px;
+    background: #0b2e06;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.5s ease-in-out;
+    margin:20px 20px 0 20px;
+}
+
+button:hover {
+    background: #1b740f;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(11, 46, 6, 0.5);
+}
+
+.trait-selector {
+margin: 20px 0;
+}
+
+.trait-options {
+    margin-bottom: 20px;
+}
+
+.trait-options h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.trait-box {
+    display: inline-block;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.3s ease;
+    overflow: hidden;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.trait-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.trait-box:hover {
+    transform: scale(1.1);
+    border-color: #6c757d;
+}
+
+.trait-box.active {
+border-color: #28a745;
+}
+
+
+.preview-container {
+    position: sticky; 
+    left: 3%; 
+    top: 29%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10; 
+
+}

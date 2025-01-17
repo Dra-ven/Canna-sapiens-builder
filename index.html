@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canna-sapiens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="canna-builder">
+        <div class="preview-container">
+            <div class="preview-section">
+                <div id="canna-preview">
+                    <img id="background-trait" src="img/white.png" alt="Background" />
+                    <img id="body-trait" src="img/body1.png" alt="Body" />
+                    <img id="eyes-trait" src="img/default.png" alt="Eyes" />
+                    <img id="mouth-trait" src="img/default.png" alt="mouth" />
+                    <img id="clothing-trait" src="img/default.png" alt="Clothing" />
+                    <img id="accessories-trait" src="img/default.png" alt="Accessories" />
+                    <img id="hair-trait" src="img/default.png" alt="Hair" />
+                    <img id="hand-trait" src="img/hs17.png" alt="hand" />
+                </div>
+                <button id="randomize-btn">Randomize</button>
+                <button id="save-image-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="traits-section">
+            <div class="trait-selector">
+                <h3>Background</h3>
+                <div class="trait-options" id="background-options">
+                    <div class="trait-box" data-trait="blue">
+                    <img src="img/blue.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="white">
+                    <img src="img/white.png" alt="Green Background" />
+                    </div>
+                    <div class="trait-box" data-trait="red">
+                        <img src="img/red.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="black">
+                        <img src="img/black.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="brown">
+                        <img src="img/brown.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="pink">
+                        <img src="img/pink.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="dred">
+                        <img src="img/dred.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gold">
+                        <img src="img/gold.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="green">
+                        <img src="img/green.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="grey">
+                        <img src="img/grey.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="purple">
+                        <img src="img/purple.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gr1">
+                        <img src="img/gr1.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gr2">
+                        <img src="img/gr2.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gr3">
+                        <img src="img/gr3.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gr4">
+                        <img src="img/gr4.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gr5">
+                        <img src="img/gr5.png" alt="Red Background" />
+                    </div>
+                    <div class="trait-box" data-trait="gr6">
+                        <img src="img/gr6.png" alt="Red Background" />
+                    </div>
+                </div>
+            </div>
+        
+            <div class="trait-selector">
+                <h3>Eyes</h3>
+                <div class="trait-options" id="eyes-options">
+                    <div class="trait-box" data-trait="e1">
+                    <img src="img/e1.png" alt="Black Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e2">
+                    <img src="img/e2.png" alt="Blue Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e3">
+                    <img src="img/e3.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e4">
+                        <img src="img/e4.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e5">
+                        <img src="img/e5.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e6">
+                        <img src="img/e6.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e7">
+                        <img src="img/e7.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e8">
+                        <img src="img/e8.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e9">
+                        <img src="img/e9.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e10">
+                        <img src="img/e10.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e11">
+                        <img src="img/e11.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e12">
+                        <img src="img/e12.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e13">
+                        <img src="img/e13.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e14">
+                        <img src="img/e14.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e15">
+                        <img src="img/e15.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e16">
+                        <img src="img/e16.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="e17">
+                        <img src="img/e17.png" alt="Green Eyes" />
+                    </div>
+                    <div class="trait-box" data-trait="a2">
+                        <img src="img/a2.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="a3">
+                        <img src="img/a3.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="a6">
+                        <img src="img/a6.png" alt="Blue Background" />
+                    </div>
+                </div>
+            </div>
+        
+            <div class="trait-selector">
+                <h3>Mouth</h3>
+                <div class="trait-options" id="mouth-options">
+                    <div class="trait-box" data-trait="m1">
+                        <img src="img/m1.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m2">
+                        <img src="img/m2.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m3">
+                        <img src="img/m3.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m4">
+                        <img src="img/m4.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m5">
+                        <img src="img/m5.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m6">
+                        <img src="img/m6.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m7">
+                        <img src="img/m7.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m8">
+                        <img src="img/m8.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m9">
+                        <img src="img/m9.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m10">
+                        <img src="img/m10.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m11">
+                        <img src="img/m11.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m12">
+                        <img src="img/m12.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m13">
+                        <img src="img/m13.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="m14">
+                        <img src="img/m14.png" alt="Blue Background" />
+                    </div>
+                </div>
+            </div>
+        
+            <div class="trait-selector">
+                <h3>Hand Properties</h3>
+                <div class="trait-options" id="hand-options">
+                    <div class="trait-box" data-trait="hs1">
+                        <img src="img/hs1.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs2">
+                        <img src="img/hs2.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs3">
+                        <img src="img/hs3.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs4">
+                        <img src="img/hs4.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs5">
+                        <img src="img/hs5.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs6">
+                        <img src="img/hs6.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs7">
+                        <img src="img/hs7.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs8">
+                        <img src="img/hs8.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs9">
+                        <img src="img/hs9.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs10">
+                        <img src="img/hs10.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs11">
+                        <img src="img/hs11.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs12">
+                        <img src="img/hs12.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs13">
+                        <img src="img/hs13.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs14">
+                        <img src="img/hs14.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs15">
+                        <img src="img/hs15.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs16">
+                        <img src="img/hs16.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs17">
+                        <img src="img/hs17.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs18">
+                        <img src="img/hs18.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs19">
+                        <img src="img/hs19.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs20">
+                        <img src="img/hs20.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hs21">
+                        <img src="img/hs21.png" alt="Blue Background" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="trait-selector">
+                <h3>Clothing</h3>
+                <div class="trait-options" id="clothing-options">
+                    <div class="trait-box" data-trait="c1">
+                    <img src="img/c1.png" alt="Shirt" />
+                    </div>
+                    <div class="trait-box" data-trait="c2">
+                    <img src="img/c2.png" alt="Jacket" />
+                    </div>
+                    <div class="trait-box" data-trait="c3">
+                    <img src="img/c3.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c4">
+                        <img src="img/c4.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c5">
+                        <img src="img/c5.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c7">
+                        <img src="img/c7.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c8">
+                        <img src="img/c8.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c9">
+                        <img src="img/c9.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c10">
+                        <img src="img/c10.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c11">
+                        <img src="img/c11.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c12">
+                        <img src="img/c12.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c13">
+                        <img src="img/c13.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c14">
+                        <img src="img/c14.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c15">
+                        <img src="img/c15.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c16">
+                        <img src="img/c16.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c17">
+                        <img src="img/c17.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c19">
+                        <img src="img/c19.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c20">
+                        <img src="img/c20.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c21">
+                        <img src="img/c21.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c22">
+                        <img src="img/c22.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c23">
+                        <img src="img/c23.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c24">
+                        <img src="img/c24.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c25">
+                        <img src="img/c25.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c26">
+                        <img src="img/c26.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c27">
+                        <img src="img/c27.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c28">
+                        <img src="img/c28.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c29">
+                        <img src="img/c29.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c30">
+                        <img src="img/c30.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c31">
+                        <img src="img/c31.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c32">
+                        <img src="img/c32.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c33">
+                        <img src="img/c33.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c34">
+                        <img src="img/c34.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c35">
+                        <img src="img/c35.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c36">
+                        <img src="img/c36.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c37">
+                        <img src="img/c37.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c38">
+                        <img src="img/c38.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c39">
+                        <img src="img/c39.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c40">
+                        <img src="img/c40.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c41">
+                        <img src="img/c41.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c42">
+                        <img src="img/c42.png" alt="Hoodie" />
+                    </div>
+                    <div class="trait-box" data-trait="c43">
+                        <img src="img/c43.png" alt="Hoodie" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="trait-selector">
+                <h3>Hair / Head Wear</h3>
+                <div class="trait-options" id="hair-options">
+                    <div class="trait-box" data-trait="h1">
+                        <img src="img/h1.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h2">
+                        <img src="img/h2.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h3">
+                        <img src="img/h3.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h4">
+                        <img src="img/h4.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h5">
+                        <img src="img/h5.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h6">
+                        <img src="img/h6.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h7">
+                        <img src="img/h7.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h8">
+                        <img src="img/h8.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h9">
+                        <img src="img/h9.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h10">
+                        <img src="img/h10.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h11">
+                        <img src="img/h11.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="h12">
+                        <img src="img/h12.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw1">
+                        <img src="img/hw1.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw2">
+                        <img src="img/hw2.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw3">
+                        <img src="img/hw3.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw4">
+                        <img src="img/hw4.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw5">
+                        <img src="img/hw5.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw6">
+                        <img src="img/hw6.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw7">
+                        <img src="img/hw7.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="hw8">
+                        <img src="img/hw8.png" alt="Blue Background" />
+                    </div>
+                </div>
+            </div>
+        
+            <div class="trait-selector">
+                <h3>Accessories</h3>
+                <div class="trait-options" id="accessories-options">
+                    <div class="trait-box" data-trait="a4">
+                        <img src="img/a4.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="a5">
+                        <img src="img/a5.png" alt="Blue Background" />
+                    </div>
+                    <div class="trait-box" data-trait="a7">
+                        <img src="img/a7.png" alt="Blue Background" />
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
